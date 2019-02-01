@@ -1,0 +1,14 @@
+{
+    "extends": ["tslint:all", "tslint-config-standard"],
+    "linterOptions": { "format": "stylish" },
+    "rules": {
+      "arrow-parens": [true, "ban-single-arg-parens"],
+      "completed-docs": false,
+      "file-name-casing": false,
+      "interface-name": [true, "never-prefix"],
+      "no-any": false,
+      "no-use-before-declare": false,
+      "trailing-comma": [true, {"multiline": "always", "singleline": "never"}],
+      "typedef": false
+    }
+}

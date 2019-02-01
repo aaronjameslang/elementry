@@ -1,0 +1,35 @@
+{
+  "name": "elementry",
+  "version": "0.0.0",
+  "description": "Type Safe Chemical Elements",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "./test.sh"
+  },
+  "keywords": [
+    "chemistry",
+    "elementary",
+    "elements",
+    "periodic",
+    "table",
+    "types",
+    "typescript"
+  ],
+  "author": "Aaron J. Lang <aaronjameslang@googlemail.com> (ajla.ng)",
+  "license": "MIT",
+  "files": [
+    "lib"
+  ],
+  "devDependencies": {
+    "ava": "^1.2.0",
+    "nyc": "^13.1.0",
+    "tslint": "^5.12.1",
+    "tslint-config-standard": "^8.0.1",
+    "typescript": "^3.2.4"
+  },
+  "ava": {
+    "files": [
+      "lib/**/*.spec.js"
+    ]
+  }
+}
