@@ -1,6 +1,6 @@
 {
   "name": "elementry",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Type Safe Chemical Elements",
   "main": "lib/index.js",
   "scripts": {
