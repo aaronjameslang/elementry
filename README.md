@@ -13,7 +13,7 @@ A type-safe library of chemical elements
 npm i elementry
 ```
 
-## Usage
+## Usage [![Try elementry on RunKit](https://badge.runkitcdn.com/elementry.svg)](https://npm.runkit.com/elementry)
 
 ```js
 import {
