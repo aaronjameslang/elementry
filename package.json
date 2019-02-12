@@ -16,6 +16,7 @@
     "typescript"
   ],
   "author": "Aaron J. Lang <aaronjameslang@googlemail.com> (ajla.ng)",
+  "repository": "aaronjameslang/elementry",
   "license": "MIT",
   "files": [
     "lib"
