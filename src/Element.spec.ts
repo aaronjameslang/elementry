@@ -32,6 +32,16 @@ test('e: Element = {}', t => {
   t.pass()
 })
 
+test('Element.getAll()', t => {
+  // tslint:disable: no-magic-numbers
+  const elements = Element.getAll()
+  t.is(elements.length, 118)
+  t.is(elements[0], Element.HYDROGEN)
+  t.is(elements[1], Element.HELIUM)
+  t.is(elements[79], Element.MERCURY)
+  t.is(elements[93], Element.PLUTONIUM)
+})
+
 test('Element.findByNumber(1)', t => {
   t.is(Element.findByNumber(1), Element.HYDROGEN)
 })

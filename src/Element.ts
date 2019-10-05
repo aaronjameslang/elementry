@@ -20,6 +20,10 @@ export class Element {
     return Element.ALL.find(e => e.symbol.toLowerCase() === symbol.toLowerCase())
   }
 
+  public static getAll () {
+    return Element.ALL.slice(0)
+  }
+
   public readonly [IS_ELEMENT] = true
   public readonly name: ElementName
   public readonly number: AtomicNumber
