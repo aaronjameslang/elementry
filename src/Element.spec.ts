@@ -42,6 +42,17 @@ test('Element.getAll()', t => {
   t.is(elements[93], Element.PLUTONIUM)
 })
 
+test('Element.findByGroup(3)', t => {
+  // tslint:disable-next-line: no-magic-numbers
+  t.deepEqual(Element.findByGroup(3), [Element.SCANDIUM, Element.YTTRIUM])
+})
+
+test('Invalid Element.findByGroup()', t => {
+  // tslint:disable-next-line: no-magic-numbers
+  t.deepEqual(Element.findByGroup(42), [])
+  t.deepEqual(Element.findByGroup('DieAntwort'), [])
+})
+
 test('Element.findByNumber(1)', t => {
   t.is(Element.findByNumber(1), Element.HYDROGEN)
 })
