@@ -115,4 +115,10 @@ export enum ElementName {
    Darmstadtium='Darmstadtium',
     Roentgenium='Roentgenium',
     Copernicium='Copernicium',
+       Nihonium='Nihonium',
+      Flerovium='Flerovium',
+      Moscovium='Moscovium',
+    Livermorium='Livermorium',
+     Tennessine='Tennessine',
+      Oganesson='Oganesson',
 }

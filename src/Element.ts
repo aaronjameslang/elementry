@@ -148,6 +148,12 @@ export class Element {
   public static readonly  DARMSTADTIUM = new Element(110, ElementSymbol.Ds, ElementName.Darmstadtium )
   public static readonly   ROENTGENIUM = new Element(111, ElementSymbol.Rg, ElementName.Roentgenium  )
   public static readonly   COPERNICIUM = new Element(112, ElementSymbol.Cb, ElementName.Copernicium  )
+  public static readonly      NIHONIUM = new Element(113, ElementSymbol.Nh, ElementName.Nihonium     )
+  public static readonly     FLEROVIUM = new Element(114, ElementSymbol.Fl, ElementName.Flerovium    )
+  public static readonly     MOSCOVIUM = new Element(115, ElementSymbol.Mc, ElementName.Moscovium    )
+  public static readonly   LIVERMORIUM = new Element(116, ElementSymbol.Lv, ElementName.Livermorium  )
+  public static readonly    TENNESSINE = new Element(117, ElementSymbol.Ts, ElementName.Tennessine   )
+  public static readonly     OGANESSON = new Element(118, ElementSymbol.Og, ElementName.Oganesson    )
 
   private static readonly ALL = [
     Element.HYDROGEN,
@@ -262,5 +268,11 @@ export class Element {
     Element.DARMSTADTIUM,
     Element.ROENTGENIUM,
     Element.COPERNICIUM,
+    Element.NIHONIUM,
+    Element.FLEROVIUM,
+    Element.MOSCOVIUM,
+    Element.LIVERMORIUM,
+    Element.TENNESSINE,
+    Element.OGANESSON,
   ]
 }
